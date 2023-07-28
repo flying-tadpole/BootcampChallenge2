@@ -1,18 +1,52 @@
+:root {
+    --space-cadet: #282d52ff;
+    --marian-blue: #454e8cff;
+    --tropical-indigo: #7a7bcdff;
+    --vista-blue: #9eadf0ff;
+    --periwinkle: #b1c7f9ff;
+    --lavender-web: #d6d9ebff;
+    --white: #ffffffff; 
+}
+
 * {
     display: flex;
     flex-direction: column;
 }
 
+header {
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+#ProfilePic {
+    width: 20%;
+    min-width: 5%;
+    border-radius: 50%;
+}
+
 header h1{
     flex-direction: row;
+    color: var(--space-cadet);
+}
+
+#LastName {
+    color: var(--marian-blue);
+    margin-left: 2%;
 }
 
 nav {
     flex-direction: row;
 }
 
+nav ul {
+    flex-direction: row;
+    margin: auto 5%;
+    border: 2px solid var(--tropical-indigo);
+}
+
 aside {
-    
+    background-color: var(--vista-blue);
 }
 
 article {
