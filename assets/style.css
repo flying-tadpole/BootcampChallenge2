@@ -1,4 +1,5 @@
 :root {
+/* colors generated via coolors.co */
     --space-cadet: #282d52ff;
     --marian-blue: #454e8cff;
     --tropical-indigo: #7a7bcdff;
@@ -12,6 +13,7 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    font-size: 100%;
 }
 
 body {
@@ -19,8 +21,8 @@ body {
 }
 
 header {
-    flex-direction: row;
-    justify-content: left;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -38,6 +40,8 @@ figure img {
 header h1{
     flex-direction: row;
     color: var(--space-cadet);
+    font-size: 500%;
+    margin: 1% auto;
 }
 
 #LastName {
@@ -51,8 +55,19 @@ nav {
 
 nav ul {
     flex-direction: row;
-    margin: auto 5%;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+
+nav ul li {
+    text-align: center;
+    align-items: center;
+    margin: 2%;
+}
+
+nav ul li a {
     border: 2px solid var(--tropical-indigo);
+    border-radius: 10%;
 }
 
 aside {
