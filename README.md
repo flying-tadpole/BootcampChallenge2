@@ -12,7 +12,7 @@ The goal was to create a personal portfolio page to showcase web design projects
 
 ## Credits
 
-Original code provided as a part of coding bootcamp.
+Code snippets provided as a part of coding bootcamp.
 
 Color palette generated using [coolor.co.](https://coolors.co/282d52-454e8c-7a7bcd-9eadf0-b1c7f9-d6d9eb-ffffff)
 
