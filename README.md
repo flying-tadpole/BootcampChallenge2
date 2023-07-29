@@ -16,7 +16,7 @@ Original code provided as a part of coding bootcamp.
 
 Color palette generated using [coolor.co.](https://coolors.co/282d52-454e8c-7a7bcd-9eadf0-b1c7f9-d6d9eb-ffffff)
 
-Card design and code inspiration from [Alec Menke.](https://codepen.io/AlecMenke/pen/bNxgRR)
+Card design and code inspiration from [W3 Schools.](https://www.w3schools.com/howto/howto_css_cards.asp)
 
 
 
