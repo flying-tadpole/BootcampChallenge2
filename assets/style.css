@@ -44,6 +44,8 @@ header h1{
   color: var(--space-cadet);
   font-size: 500%;
   margin: 1% auto;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #LastName {
@@ -146,12 +148,19 @@ article h2 {
     max-width: 50%;
     margin: 1% 1%;
   }
+  header h1 {
+    flex-wrap: nowrap;
+  }
 }
 
 @media screen and (min-width: 992px) {
   header {
     width: 100%;
   }
+
+  /* header h1 {
+    flex-wrap: nowrap;
+  } */
   
   .card {
     flex: 0 0 33.333%;
