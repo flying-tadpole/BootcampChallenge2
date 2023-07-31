@@ -10,6 +10,10 @@ The goal was to create a personal portfolio page to showcase web design projects
 
 [Github Pages link.](https://flying-tadpole.github.io/BootcampChallenge2/)
 
+Preview:
+![preview of web app header](./assets/Screenshot%202023-07-31%20120203.png)
+![preview of web app body](./assets/Screenshot%202023-07-31%20120139.png)
+
 ## Credits
 
 Code snippets provided as a part of coding bootcamp.
