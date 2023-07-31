@@ -9,6 +9,7 @@
   --white: #ffffffff; 
 }
 
+/* setting base style for whole page */
 * {
   display: flex;
   flex-direction: column;
@@ -16,12 +17,14 @@
   font-size: 100%;
 }
 
+/* background and font */
 body {
   background-color: var(--lavender-web);
   font-family: Roboto, veranda;
   padding-bottom: 4em;
 }
 
+/* profile picture and title style */
 header {
   flex-direction: column;
   justify-content: center;
@@ -53,6 +56,7 @@ header h1{
   margin-left: 2%;
 }
 
+/* navigation style */
 nav {
   flex-direction: row;
 }
@@ -72,18 +76,19 @@ nav ul li {
 }
 
 nav ul li a {
-  /* border: 2px solid var(--marian-blue); */
   border-radius: 10%;
   color: var(--space-cadet);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
 
+/* increased drop shadow on hover */
 nav ul li a:hover {
   box-shadow: 0 5px 5px 1px var(--marian-blue);
   cursor: pointer;
 }
 
+/* style for contact information */
 aside {
   justify-content: center;
   align-items: center;
@@ -175,7 +180,7 @@ footer {
     width: 100%;
   }
   .card {
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
+    flex: 0 0 25%;
+    max-width: 25%;
   }
 }  
