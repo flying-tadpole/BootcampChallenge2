@@ -184,13 +184,3 @@ footer {
     max-width: 25%;
   }
 }  
-
-@media text {
-  header {
-    width: 100%;
-  }
-  .card {
-    flex: 0 0 25%;
-    max-width: 25%;
-  }
-}
